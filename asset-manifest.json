@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FSD-Projext-8/static/css/main.2337b502.css",
+    "main.js": "/FSD-Projext-8/static/js/main.4c85324a.js",
+    "static/js/453.5dbc1504.chunk.js": "/FSD-Projext-8/static/js/453.5dbc1504.chunk.js",
+    "index.html": "/FSD-Projext-8/index.html",
+    "main.2337b502.css.map": "/FSD-Projext-8/static/css/main.2337b502.css.map",
+    "main.4c85324a.js.map": "/FSD-Projext-8/static/js/main.4c85324a.js.map",
+    "453.5dbc1504.chunk.js.map": "/FSD-Projext-8/static/js/453.5dbc1504.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2337b502.css",
+    "static/js/main.4c85324a.js"
+  ]
+}
