@@ -1,0 +1,113 @@
+/* General Form Styles */
+.novel-form-container {
+    position: relative;
+    padding-bottom: 60px; /* Ensure space for the back home button */
+  }
+  
+  .novel-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .input-field, .textarea-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .textarea-field {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Dark Mode Styling */
+  .dark-mode .novel-form {
+    background-color: #2c2c2c;
+    color: #f9f9f9;
+  }
+  
+  .dark-mode .input-field, .dark-mode .textarea-field {
+    background-color: #3a3a3a;
+    color: #f9f9f9;
+    border: 1px solid #555;
+  }
+  
+  .dark-mode .submit-btn {
+    background-color: #555;
+  }
+  
+  .dark-mode .submit-btn:hover {
+    background-color: #777;
+  }
+  
+  .dark-mode .image-preview {
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dark-mode .novel-image {
+    width: 100%; /* Ensure the image fits the container width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Set a maximum width */
+    max-height: 400px; /* Set a maximum height */
+    object-fit: contain; /* Ensure the image scales within the container without cropping */
+    border-radius: 4px;
+  }
+  
+  /* Home Button Styles */
+  .back-home-btn {
+    margin-top: 20px; /* Space from the form */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-home-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Ensure footer does not overlap the button */
+  footer {
+    position: relative; /* Ensure it does not overlap content */
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
